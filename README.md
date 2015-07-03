@@ -1,13 +1,13 @@
 # canvas
-##game.html  >>小游戏demo
-##demo.html  >>小demo
+<a href="http://htmlpreview.github.io/?https://github.com/wy-ang/canvas/blob/demo/game.html">game.html  >>小游戏demo</a>
+<a href="http://htmlpreview.github.io/?https://github.com/wy-ang/canvas/blob/demo/demo.html">demo.html  >>小demo</a>
 
 http://htmlpreview.github.com/
 
 
 
-#####附录：#####
-######颜色、样式和阴影######
+<h5>附录：</h5>
+<h6>颜色、样式和阴影</h6>
 <table class="dataintable" style="height: 160px; width: 1200px;">
 <tbody>
 <tr><th>属性</th><th>描述</th></tr>
