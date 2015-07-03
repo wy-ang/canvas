@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<canvas id="myCnvas" style="border:1px solid #ccc;"></canvas>
+<script type="text/javascript">
+	var c = document.getElementById('myCnvas');
+	var ctx = c.getContext('2d');//获取该canvas的2D绘图环境对象
+	ctx.fillStyle = "#F00";
+	ctx.fillRect(0,0,50,50);
+	ctx.moveTo(10,10);//咱把“画笔”移到坐标(10,10)
+	ctx.lineTo(150,150);//从上个点(10,10)画一条直线，结束点坐标是(150,50)
+	ctx.lineTo(10,50); //从上个点(150,50)继续画一条直线，结束点坐标是(10,50)
+
+	
+	var grd = ctx.createLinearGradient(0,0,150,0);//定义线性渐变对象，设定渐变线起始点和结束点坐标，坐标格式为(起始点x,起始点y,结束点x,结束点y)
+	grd.addColorStop(0,'#F00'); //定义渐变线起点颜色
+	grd.addColorStop(0.5,'#0F0');//定义渐变线中间点的颜色
+	grd.addColorStop(1,'#00F');//定义渐变线结束点的颜色
+
+
+	ctx.strokeStyle = grd; //将渐变对象赋值给strokeStyle
+	ctx.stroke(); //描边
+
+	//ctx.beginPath();  //告诉canvas咱们要重新绘制一条全新的路径了，之前画的东西从此再无关系
+</script>
+</body>
+</html>
