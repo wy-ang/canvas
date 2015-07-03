@@ -1,5 +1,6 @@
 # canvas
-<a href="http://htmlpreview.github.io/?https://github.com/wy-ang/canvas/blob/demo/game.html">game.html  >>小游戏demo</a>
+<a href="http://htmlpreview.github.io/?https://github.com/wy-ang/canvas/blob/demo/game.html">game.html  >>小游戏demo</a>  
+
 <a href="http://htmlpreview.github.io/?https://github.com/wy-ang/canvas/blob/demo/demo.html">demo.html  >>小demo</a>
 
 http://htmlpreview.github.com/
