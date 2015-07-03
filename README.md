@@ -1,5 +1,5 @@
 # canvas
-game.html  <code>//小游戏demo</code>
+game.html  <pre><code>//小游戏demo</code></pre>
 -------------------------------------------------
 1.记录日常学习到的知识点<br />
 2.做一些小的demo<br />
