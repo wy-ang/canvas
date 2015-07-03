@@ -6,8 +6,8 @@ http://htmlpreview.github.com/
 
 
 
-######附录：
-#####颜色、样式和阴影
+#####附录：#####
+######颜色、样式和阴影######
 <table class="dataintable" style="height: 160px; width: 1200px;">
 <tbody>
 <tr><th>属性</th><th>描述</th></tr>
@@ -59,7 +59,7 @@ http://htmlpreview.github.com/
 </tbody>
 </table>
 <div>
-#####线条样式
+######线条样式######
 <table class="dataintable" style="height: 114px; width: 1200px;">
 <tbody>
 <tr><th>属性</th><th>描述</th></tr>
@@ -83,7 +83,7 @@ http://htmlpreview.github.com/
 </table>
 </div>
 <div>
-#####矩形
+######矩形######
 <table class="dataintable" style="height: 114px; width: 1200px;">
 <tbody>
 <tr><th>方法</th><th>描述</th></tr>
@@ -107,7 +107,7 @@ http://htmlpreview.github.com/
 </table>
 </div>
 <div>
-#####路径
+######路径######
 <table class="dataintable" style="width: 1200px;">
 <tbody>
 <tr><th>方法</th><th>描述</th></tr>
@@ -163,7 +163,7 @@ http://htmlpreview.github.com/
 </table>
 </div>
 <div>
-#####转换
+######转换######
 <table class="dataintable" style="width: 1200px;">
 <tbody>
 <tr><th>方法</th><th>描述</th></tr>
@@ -191,7 +191,7 @@ http://htmlpreview.github.com/
 </table>
 </div>
 <div>
-#####文本
+######文本######
 <table class="dataintable" style="width: 1200px;">
 <tbody>
 <tr><th>属性</th><th>描述</th></tr>
@@ -228,7 +228,7 @@ http://htmlpreview.github.com/
 </table>
 </div>
 <div>
-#####图像绘制
+######图像绘制######
 <table class="dataintable" style="width: 1200px;">
 <tbody>
 <tr><th>方法</th><th>描述</th></tr>
@@ -240,7 +240,7 @@ http://htmlpreview.github.com/
 </table>
 </div>
 <div>
-#####像素操作
+######像素操作######
 <table class="dataintable" style="width: 1200px;">
 <tbody>
 <tr><th>属性</th><th>描述</th></tr>
@@ -277,7 +277,7 @@ http://htmlpreview.github.com/
 </table>
 </div>
 <div>
-#####合成
+######合成######
 <table class="dataintable" style="width: 1200px;">
 <tbody>
 <tr><th>属性</th><th>描述</th></tr>
@@ -293,7 +293,7 @@ http://htmlpreview.github.com/
 </table>
 </div>
 <div>
-#####其他
+######其他######
 <table class="dataintable" style="width: 1200px;">
 <tbody>
 <tr><th>方法</th><th>描述</th></tr>
