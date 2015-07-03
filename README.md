@@ -1,17 +1,13 @@
 # canvas
-<div id=""></div>game.html  >>小游戏demo
+##game.html  >>小游戏demo
+##demo.html  >>小demo
 
-1.记录日常学习到的知识点<br />
-2.做一些小的demo<br />
-3.记录自己所悟到的一些想法<br />
-
+http://htmlpreview.github.com/
 
 
 
-
-<h1>附录：</h1>
-<h2>&nbsp;</h2>
-<h2>颜色、样式和阴影</h2>
+#####附录：
+######颜色、样式和阴影
 <table class="dataintable" style="height: 160px; width: 1200px;">
 <tbody>
 <tr><th>属性</th><th>描述</th></tr>
@@ -63,7 +59,7 @@
 </tbody>
 </table>
 <div>
-<h2>线条样式</h2>
+######线条样式
 <table class="dataintable" style="height: 114px; width: 1200px;">
 <tbody>
 <tr><th>属性</th><th>描述</th></tr>
@@ -87,7 +83,7 @@
 </table>
 </div>
 <div>
-<h2>矩形</h2>
+######矩形
 <table class="dataintable" style="height: 114px; width: 1200px;">
 <tbody>
 <tr><th>方法</th><th>描述</th></tr>
@@ -111,7 +107,7 @@
 </table>
 </div>
 <div>
-<h2>路径</h2>
+######路径
 <table class="dataintable" style="width: 1200px;">
 <tbody>
 <tr><th>方法</th><th>描述</th></tr>
@@ -167,7 +163,7 @@
 </table>
 </div>
 <div>
-<h2>转换</h2>
+######转换
 <table class="dataintable" style="width: 1200px;">
 <tbody>
 <tr><th>方法</th><th>描述</th></tr>
@@ -195,7 +191,7 @@
 </table>
 </div>
 <div>
-<h2>文本</h2>
+######文本
 <table class="dataintable" style="width: 1200px;">
 <tbody>
 <tr><th>属性</th><th>描述</th></tr>
@@ -232,7 +228,7 @@
 </table>
 </div>
 <div>
-<h2>图像绘制</h2>
+######图像绘制
 <table class="dataintable" style="width: 1200px;">
 <tbody>
 <tr><th>方法</th><th>描述</th></tr>
@@ -244,7 +240,7 @@
 </table>
 </div>
 <div>
-<h2>像素操作</h2>
+######像素操作
 <table class="dataintable" style="width: 1200px;">
 <tbody>
 <tr><th>属性</th><th>描述</th></tr>
@@ -281,7 +277,7 @@
 </table>
 </div>
 <div>
-<h2>合成</h2>
+######合成
 <table class="dataintable" style="width: 1200px;">
 <tbody>
 <tr><th>属性</th><th>描述</th></tr>
@@ -297,7 +293,7 @@
 </table>
 </div>
 <div>
-<h2>其他</h2>
+######其他
 <table class="dataintable" style="width: 1200px;">
 <tbody>
 <tr><th>方法</th><th>描述</th></tr>
@@ -333,4 +329,4 @@
 
 
 
-http://htmlpreview.github.com/
+
