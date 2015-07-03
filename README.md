@@ -59,7 +59,7 @@ http://htmlpreview.github.com/
 </tbody>
 </table>
 <div>
-######线条样式######
+<h6>线条样式</h6>
 <table class="dataintable" style="height: 114px; width: 1200px;">
 <tbody>
 <tr><th>属性</th><th>描述</th></tr>
@@ -83,7 +83,7 @@ http://htmlpreview.github.com/
 </table>
 </div>
 <div>
-######矩形######
+<h6>矩形</h6>
 <table class="dataintable" style="height: 114px; width: 1200px;">
 <tbody>
 <tr><th>方法</th><th>描述</th></tr>
@@ -107,7 +107,7 @@ http://htmlpreview.github.com/
 </table>
 </div>
 <div>
-######路径######
+<h6>路径</h6>
 <table class="dataintable" style="width: 1200px;">
 <tbody>
 <tr><th>方法</th><th>描述</th></tr>
@@ -163,7 +163,7 @@ http://htmlpreview.github.com/
 </table>
 </div>
 <div>
-######转换######
+<h6>转换</h6>
 <table class="dataintable" style="width: 1200px;">
 <tbody>
 <tr><th>方法</th><th>描述</th></tr>
@@ -191,7 +191,7 @@ http://htmlpreview.github.com/
 </table>
 </div>
 <div>
-######文本######
+<h6>文本</h6>
 <table class="dataintable" style="width: 1200px;">
 <tbody>
 <tr><th>属性</th><th>描述</th></tr>
@@ -228,7 +228,7 @@ http://htmlpreview.github.com/
 </table>
 </div>
 <div>
-######图像绘制######
+<h6>图像绘制</h6>
 <table class="dataintable" style="width: 1200px;">
 <tbody>
 <tr><th>方法</th><th>描述</th></tr>
@@ -240,7 +240,7 @@ http://htmlpreview.github.com/
 </table>
 </div>
 <div>
-######像素操作######
+<h6>像素操作</h6>
 <table class="dataintable" style="width: 1200px;">
 <tbody>
 <tr><th>属性</th><th>描述</th></tr>
@@ -277,7 +277,7 @@ http://htmlpreview.github.com/
 </table>
 </div>
 <div>
-######合成######
+<h6>合成</h6>
 <table class="dataintable" style="width: 1200px;">
 <tbody>
 <tr><th>属性</th><th>描述</th></tr>
@@ -293,7 +293,7 @@ http://htmlpreview.github.com/
 </table>
 </div>
 <div>
-######其他######
+<h6>其他</h6>
 <table class="dataintable" style="width: 1200px;">
 <tbody>
 <tr><th>方法</th><th>描述</th></tr>
