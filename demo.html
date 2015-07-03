@@ -5,27 +5,95 @@
 	<title>Document</title>
 </head>
 <body>
-<canvas id="myCnvas" style="border:1px solid #ccc;"></canvas>
+<canvas id="myCnvas" style="border:1px solid #ccc;">
+	您的浏览器版本太低，不支持canvas！
+</canvas>
 <script type="text/javascript">
 	var c = document.getElementById('myCnvas');
 	var ctx = c.getContext('2d');//获取该canvas的2D绘图环境对象
+	c.width = 500;
+	c.height = 500;
 	ctx.fillStyle = "#F00";
-	ctx.fillRect(0,0,50,50);
+	ctx.fillRect(300,0,50,50);
 	ctx.moveTo(10,10);//咱把“画笔”移到坐标(10,10)
 	ctx.lineTo(150,150);//从上个点(10,10)画一条直线，结束点坐标是(150,50)
 	ctx.lineTo(10,50); //从上个点(150,50)继续画一条直线，结束点坐标是(10,50)
 
-	
+	//createLinerGradient(xstart,ystart,xend,yend)
 	var grd = ctx.createLinearGradient(0,0,150,0);//定义线性渐变对象，设定渐变线起始点和结束点坐标，坐标格式为(起始点x,起始点y,结束点x,结束点y)
 	grd.addColorStop(0,'#F00'); //定义渐变线起点颜色
 	grd.addColorStop(0.5,'#0F0');//定义渐变线中间点的颜色
 	grd.addColorStop(1,'#00F');//定义渐变线结束点的颜色
 
-
 	ctx.strokeStyle = grd; //将渐变对象赋值给strokeStyle
 	ctx.stroke(); //描边
 
+	ctx.beginPath();
+	//createPattern(image, repetitionStyle)     //参数 image 代表图案对象、repetitionStyle代表图案重复形式;
+	pic = new Image(); //创建图片对象，或者 pic = document.createElement(‘img‘)
+	pic.src="http://images.cnblogs.com/cnblogs_com/vajoy/558870/o_5.jpg";
+	//pic.onload = patternFill;  //在图片加载完成时执行绘图函数
+
+	function patternFill(){  //定义绘图函数
+		var redTexture  = ctx.createPattern(pic,'repeat');
+		ctx.strokeStyle = redTexture;
+		ctx.moveTo(100,0);
+		ctx.lineTo(300,400);
+		ctx.lineWidth = 10; //定义线段粗度为10像素
+		ctx.stroke();
+	}
+
+	ctx.beginPath();
+	/**
+	  * lineCap 设定线段端点的形状（线帽）
+	  * butt    默认，即线条端点为平直的边缘
+	  * round   线条端点为圆角线帽
+	  * square  为线条端点添加正方形线帽
+	**/
+	ctx.lineCap = 'round';
+	ctx.lineWidth=10;
+	ctx.moveTo(200,200);
+	ctx.lineTo(400,300);
+	ctx.lineTo(400,400);
+	ctx.lineTo(100,400);
+	ctx.lineTo(100,200);
+	ctx.strokeStyle = 'red';
+	ctx.stroke();
+
+	ctx.beginPath();
+	/**
+	  * lineJoin 设定折线的交接处的外角类型
+	  * miter    默认，折线交接处为尖角
+	  * round    折线交接处为圆角
+	  * bevel    折线交接处为斜角
+	**/
+	ctx.lineJoin = 'bevel';
+	ctx.lineWidth=10;
+	ctx.moveTo(100,100);
+	ctx.lineTo(200,100);
+	ctx.lineTo(200,200);
+	ctx.moveTo(100,100);
+	ctx.lineTo(100,200);
+	ctx.strokeStyle = 'red';
+	ctx.stroke();
+
 	//ctx.beginPath();  //告诉canvas咱们要重新绘制一条全新的路径了，之前画的东西从此再无关系
+
+	//ctx.arc(x, y, radius, startAngle, endAngle, anticlockwise)x和y参数是圆心坐标，radius是半径，startAngle和endAngle则是扇形的起始角度和终止角度（以弧度表示），anticlockwise表示做图时应该逆时针画（true）还是顺时针画（false）
+	ctx.beginPath();
+	ctx.arc(200,300,50,0,Math.PI*2,true);
+	ctx.lineWidth = 10;
+	ctx.strokeStyle = 'blue';
+	ctx.stroke(); 
+	ctx.fillStyle = 'red';
+	ctx.fill();
+
+
+	//clearRect(x, y, width, height),清除矩形左上角顶点的x坐标、y坐标，以及矩形的宽和高
+	ctx.beginPath();
+	ctx.fillStyle = 'red';
+    ctx.fillRect(250, 50, 200, 100);
+    ctx.clearRect(300,50,50,50);
 </script>
 </body>
 </html>
