@@ -1,0 +1,45 @@
+.height {
+  height: 50px;
+  line-height: 50px;
+}
+.bgF {
+  background: #030201;
+}
+.bg0 {
+  background: #FFFFFF;
+}
+.lst {
+  list-style-type: none;
+}
+.nav {
+  height: 50px;
+  line-height: 50px;
+  background: #FFFFFF;
+  width: 100%;
+  border-top: #ccc;
+  border-bottom: #ccc;
+}
+.nav ul {
+  list-style-type: none;
+  height: 50px;
+  line-height: 50px;
+  background: #030201;
+  width: 1000px;
+  margin: 0 auto;
+}
+.nav ul li {
+  list-style-type: none;
+  float: left;
+  cursor: pointer;
+}
+.nav ul li a {
+  padding: 0 20px;
+  color: #FFF;
+  text-decoration: none;
+}
+.nav ul li:hover {
+  background: #FFFFFF;
+}
+.nav ul li:hover a {
+  color: #000;
+}
